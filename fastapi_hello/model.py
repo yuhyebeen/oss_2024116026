@@ -1,5 +1,8 @@
 from pydantic import BaseModel
 
-class Todo(BaseModel):
-    id: int
-    item: str
+
+class Course(BaseModel):
+    course_name: str
+    year: str
+    semester: str
+    grade: str
